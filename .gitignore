@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ── Dependencies ─────────────────────────────────────────────
+/node_modules
+
+# ── Next.js build output ─────────────────────────────────────
+/.next/
+/out/
+/build
+
+# ── Environment variables (NEVER commit these) ───────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+
+# ── Debug / log files ────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# ── Vercel ───────────────────────────────────────────────────
+.vercel
+
+# ── TypeScript ───────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ── OS / Editor artifacts ────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Sensitive config (may contain auth tokens) ───────────────
+.npmrc
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
